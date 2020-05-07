@@ -3,4 +3,4 @@ A (dummy) implementation of the SHA-1 encryption algorithm written for education
 
 The accuracy is tested both using the official test arrays (available as resources in the repo) and Python's hashlib implementation of SHA-1.
 There's also illustrated the avalanche effect - making use of the Hamming distance.
-For the attack, the algorithm generates random strings of different length and hashes them until it finds two strings with the same first 32 bits of the digest.
+For the attack, the algorithm generates random strings of different lengths and hashes them until it finds two strings with the same first 32 bits of the digest.
