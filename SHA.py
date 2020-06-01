@@ -32,7 +32,7 @@ def pad_until_512_mod_448(arr):
     return arr
 
 
-# take what join_all_binaries returns but without the last digit, get its length in binary and pad with 0's at frount until it gets 64 chars long
+# take what join_all_binaries returns but without the last digit, get its length in binary and pad with 0's at front until it gets 64 chars long
 def get_64_chars(joined_binaries):
     return bin(len(joined_binaries) - 1)[2:].zfill(64)
 
